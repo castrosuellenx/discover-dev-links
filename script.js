@@ -7,11 +7,7 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     image.setAttribute("src", "./assets/avatar-light.png")
-    // TODO: Set alt
-    image.setAttribute("alt", "ANOTHER")
   } else {
     image.setAttribute("src", "./assets/avatar.png")
-    // TODO: Set alt
-    image.setAttribute("alt", "ALGO")
   }
 }
